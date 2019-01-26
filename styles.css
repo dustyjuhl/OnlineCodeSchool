@@ -1,3 +1,6 @@
+* , *:before, *:after{
+    box-sizing:border-box;
+  }
 body {
   background-color: #58A4B0;
   color: white;
@@ -16,14 +19,14 @@ header h1 {
 nav {
   background-color: #2B303A;
   overflow: auto;
-
 }
 nav ul {
   list-style: none;
   font-size: 1.5em;
   margin: 0 auto;
-  width: 800px;
+  /* width: 800px; */
   padding: 0;
+  float: right;
 }
 nav li {
   float: left;
@@ -45,6 +48,33 @@ nav a:hover {
 }
 main {
   min-height: 300px;
+  background-color: #efefef;
+  }
+main aside {
+  width: 20%;
+  display: inline-block;
+  padding: 1em;
+  color: black;
+  vertical-align: top;
+}
+main aside button {
+  background-color: blue;
+  font-weight: bold;
+  font-size: 1.5em;
+  width: 250px;
+  height: 75px;
+}
+main section {
+  width: 79%;
+  border-left: 1px solid #dddddd;
+  display: inline-block;
+  padding-left: 1em;
+  color: black;
+}
+main section img {
+  width: 200px;
+  float: left;
+  margin: 0 0.5em 0.5em 0;
 }
 footer {
   border-top: 1px solid #2B303A;
@@ -53,7 +83,12 @@ footer {
   font-family: sans-serif;
   font-style: italic;
   padding-right: 0.5em;
+  padding-top: 0.5em;
+}
+footer a {
+  text-decoration: none;
+  color: white;
 }
 footer a:hover {
-  color: #9EADC8;
+  color: blue;
 }
