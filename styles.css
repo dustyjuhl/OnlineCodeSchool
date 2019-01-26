@@ -16,18 +16,22 @@ header h1 {
 nav {
   background-color: #2B303A;
   overflow: auto;
+
 }
 nav ul {
   list-style: none;
   font-size: 1.5em;
-  margin: 0;
+  margin: 0 auto;
+  width: 800px;
   padding: 0;
 }
 nav li {
   float: left;
 }
 nav a {
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
   padding: 0.5em;
   text-decoration: none;
   font-family: 'Cabin', sans-serif;
@@ -35,4 +39,18 @@ nav a {
 }
 nav a:hover {
   background-color: #9EADC8;
+}
+main {
+  min-height: 300px;
+}
+footer {
+  border-top: 1px solid #2B303A;
+  text-align: right;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-style: italic;
+  padding-right: 0.5em;
+}
+footer a:hover {
+  color: #9EADC8;
 }
