@@ -13,3 +13,26 @@ header {
 header h1 {
   margin: 0;
 }
+nav {
+  background-color: #2B303A;
+  overflow: auto;
+}
+nav ul {
+  list-style: none;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  float: left;
+}
+nav a {
+  display: inline-block;
+  padding: 0.5em;
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
+  border-right: 1px solid #dddddd;
+}
+nav a:hover {
+  background-color: #9EADC8;
+}
