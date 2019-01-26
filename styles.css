@@ -37,6 +37,9 @@ nav a {
   font-family: 'Cabin', sans-serif;
   border-right: 1px solid #dddddd;
 }
+nav a:first-of-type {
+  border-left: 1px solid #dddddd;
+}
 nav a:hover {
   background-color: #9EADC8;
 }
